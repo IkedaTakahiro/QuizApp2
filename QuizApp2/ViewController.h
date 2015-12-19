@@ -10,6 +10,15 @@
 
 @interface ViewController : UIViewController
 
+-(IBAction)mbutton:(id)sender;
+-(IBAction)bbutton:(id)sender;
+-(IBAction)nextbutton:(id)sender;
+
+@property(nonatomic,weak)IBOutlet UILabel *daimei;
+@property(nonatomic,weak)IBOutlet UITextView *mondaibun;
+@property(nonatomic,weak)IBOutlet UIButton *nextbuttonp;
+@property(nonatomic,weak)IBOutlet UIButton *mbuttonp;
+@property(nonatomic,weak)IBOutlet UIButton *bbuttonp;
 
 @end
 

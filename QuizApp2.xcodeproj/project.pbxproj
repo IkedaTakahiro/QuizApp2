@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		066180701C20CEDA007E165B /* batu.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 0661806E1C20CEDA007E165B /* batu.m4a */; };
+		066180711C20CEDA007E165B /* maru.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 0661806F1C20CEDA007E165B /* maru.m4a */; };
 		068DB4E91C1F5CE4007A350C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 068DB4E81C1F5CE4007A350C /* main.m */; };
 		068DB4EC1C1F5CE4007A350C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 068DB4EB1C1F5CE4007A350C /* AppDelegate.m */; };
 		068DB4EF1C1F5CE4007A350C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 068DB4EE1C1F5CE4007A350C /* ViewController.m */; };
@@ -14,6 +16,8 @@
 		068DB4F41C1F5CE4007A350C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 068DB4F31C1F5CE4007A350C /* Images.xcassets */; };
 		068DB4F71C1F5CE4007A350C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 068DB4F51C1F5CE4007A350C /* LaunchScreen.xib */; };
 		068DB5031C1F5CE4007A350C /* QuizApp2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 068DB5021C1F5CE4007A350C /* QuizApp2Tests.m */; };
+		06954FC81C206C9F0050CEB6 /* default.png in Resources */ = {isa = PBXBuildFile; fileRef = 06954FC71C206C9F0050CEB6 /* default.png */; };
+		06954FCA1C2071130050CEB6 /* gazou0.png in Resources */ = {isa = PBXBuildFile; fileRef = 06954FC91C2071130050CEB6 /* gazou0.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +31,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0661806E1C20CEDA007E165B /* batu.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = batu.m4a; sourceTree = "<group>"; };
+		0661806F1C20CEDA007E165B /* maru.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = maru.m4a; sourceTree = "<group>"; };
 		068DB4E31C1F5CE4007A350C /* QuizApp2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuizApp2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		068DB4E71C1F5CE4007A350C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		068DB4E81C1F5CE4007A350C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -40,6 +46,8 @@
 		068DB4FC1C1F5CE4007A350C /* QuizApp2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuizApp2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		068DB5011C1F5CE4007A350C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		068DB5021C1F5CE4007A350C /* QuizApp2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QuizApp2Tests.m; sourceTree = "<group>"; };
+		06954FC71C206C9F0050CEB6 /* default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = default.png; sourceTree = "<group>"; };
+		06954FC91C2071130050CEB6 /* gazou0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gazou0.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +104,10 @@
 		068DB4E61C1F5CE4007A350C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				0661806E1C20CEDA007E165B /* batu.m4a */,
+				0661806F1C20CEDA007E165B /* maru.m4a */,
+				06954FC71C206C9F0050CEB6 /* default.png */,
+				06954FC91C2071130050CEB6 /* gazou0.png */,
 				068DB4E71C1F5CE4007A350C /* Info.plist */,
 				068DB4E81C1F5CE4007A350C /* main.m */,
 			);
@@ -201,7 +213,11 @@
 			files = (
 				068DB4F21C1F5CE4007A350C /* Main.storyboard in Resources */,
 				068DB4F71C1F5CE4007A350C /* LaunchScreen.xib in Resources */,
+				06954FCA1C2071130050CEB6 /* gazou0.png in Resources */,
 				068DB4F41C1F5CE4007A350C /* Images.xcassets in Resources */,
+				066180701C20CEDA007E165B /* batu.m4a in Resources */,
+				06954FC81C206C9F0050CEB6 /* default.png in Resources */,
+				066180711C20CEDA007E165B /* maru.m4a in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -416,6 +432,7 @@
 				068DB5081C1F5CE4007A350C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		068DB5091C1F5CE4007A350C /* Build configuration list for PBXNativeTarget "QuizApp2Tests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +441,7 @@
 				068DB50B1C1F5CE4007A350C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
