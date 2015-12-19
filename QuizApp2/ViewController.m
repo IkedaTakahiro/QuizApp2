@@ -36,7 +36,7 @@
 -(void)initialize{
     tensuu = 0;
     self.daimei.text = @"第1問";
-    self.mondaibun.text = @"ルフィに麦わら帽子をくれたのは、四皇のひとり「シャンクス」である。";
+    self.mondaibun.text = @"ゾロの夢は、世界一の剣豪になることである。";
     self.mondaibun.font = [UIFont systemFontOfSize:12.0];
     self.mondaibun.editable = NO;
     self.nextbuttonp.hidden = YES;
@@ -55,7 +55,7 @@
             tensuu++;
             break;
         case 2:
-            self.mondaibun.text = @"正解！";
+            self.mondaibun.text = @"正解!";
             [self seikai];
             tensuu++;
             break;
@@ -122,19 +122,19 @@
         switch(count){
         case 2:
             self.daimei.text = @"第２問";
-            self.mondaibun.text = @"ルフィの最初の懸賞金は、３０００万ベリーである。";
+            self.mondaibun.text = @"ナミの夢は、世界中の海図を書くことである。";
             break;
         case 3:
             self.daimei.text = @"第3問";
-            self.mondaibun.text = @"ルフィの食べた悪魔の実は、ゴムゴムの実である。";
+            self.mondaibun.text = @"サンジの夢は、伝説の海オールブルーを見つけることである。";
             break;
         case 4:
             self.daimei.text = @"第4問";
-            self.mondaibun.text = @"ルフィの父親は、ドラゴンである。";
+            self.mondaibun.text = @"ウソップの夢は、勇敢なる海の戦士になることである。";
             break;
         case 5:
             self.daimei.text = @"第5問";
-            self.mondaibun.text = @"ルフィの誕生日は、５月５日である。。";
+            self.mondaibun.text = @"チョッパーの夢は、なんでも治せる医者になることである。";
             break;
         case 6:
             self.daimei.text = nil;
